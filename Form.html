@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-image: url(Himanshu.jpg.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            width: 300px; height: 290px;
+            text-align: justify;
+        }
+        
+        h1{
+            color: rgb(220, 23, 23);
+            background-color: rgb(243, 243, 19);
+        }
+        label{
+            color: darkorange;
+
+        }
+    </style>
+</head>
+<body background-color="lightblue">
+    <h1 style= text-align:center>STUDENT INFORMATION</h1>
+    
+     <label>Full Name :- </label>
+    <input type="text" placeholder="Full Name" required><br><br>
+
+    <label>Email :- </label>
+    <input type="email" required><br><br>
+
+    <label>Password :- </label>
+    <input type="password" maxlength="12" minlength="6"><br><br>
+    
+    <label>Roll Number:-</label>
+    <input type="number" max="75" min="1"><br><br>
+
+    <label>Mobile Number:-</label>
+    <input type="number"><br><br>
+
+    <label>Date of Birth :-</label>
+    <input type="Date" min="2000-01-01" max="1-10-2025"><br><br>
+
+    <label for="Class:">Class:-</label><br>
+    <input type="radio" id="1st Year" valve="1st Year" name="Course">
+    <label for="1st year">1st Year</label><br>
+    <input type="radio" id="2nd Year" valve="2nd Year" name="Course">
+    <label for="2nd Year">2nd Year</label><br>
+    <input type="radio" id="3rd Year" valve="3rd Year" name="Course">
+    <label for="3rd Year">3rd Year</label><br>
+    <input type="radio" id="4th Year" valve="4th Year" name="Course">
+    <label for="4th Year">4th Year</label><br><br>
+
+    <label>Enter your Gender :-</label><br>
+    <input type="radio" name="Gender" value="Male">Male<br>
+    <input type="radio" name="Gender" value="Female">Female<br>
+    <input type="radio" name="Gender" value="Other">Other<br><br>
+
+    <label>Skills -</label><br>
+    <input type="checkbox" name="Skills" value="HTML">HTML<br>
+    <input type="checkbox" name="Skills" value="CSS">CSS<br>
+    <input type="checkbox" name="Skills" value="JavaScript">JavaScript<br>
+    <input type="checkbox" name="Skills" value="Python">Python<br><br>
+
+    <input type="submit" value="Submit">
+</body>
+</html>
